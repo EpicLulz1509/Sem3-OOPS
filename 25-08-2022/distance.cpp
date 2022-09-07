@@ -7,10 +7,8 @@ class DISTANCE{
 	public:
 	
 		void input(){
-			cout << "Enter feet: ";
-			cin >> feet;
-			cout << "Enter inches: ";
-			cin >> inches;
+			cout << "Enter feet and inches: ";
+			cin >> feet >> inches;
 		}
 		
 		void print(){
@@ -33,9 +31,8 @@ class DISTANCE{
 
 int main(){
 	DISTANCE c1, c2, c3;
-	cout << "Enter first DISTANCE: \n";
+	cout << "Enter first and second DISTANCE: \n";
 	c1.input();
-	cout << "Enter second DISTANCE: \n";
 	c2.input();
 	
 	cout << "Sum is: ";
@@ -45,3 +42,10 @@ int main(){
 
 	return 0;
 }
+
+
+// OUTPUT:
+// Enter first and second DISTANCE: 
+// Enter feet and inches: 2 8
+// Enter feet and inches: 3 9
+// Sum is: Feet: 6 Inches: 5

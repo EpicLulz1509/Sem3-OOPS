@@ -7,10 +7,8 @@ class FRACTION{
 	public:
 	
 		void input(){
-			cout << "Enter the numerator: ";
-			cin >> num;
-			cout << "Enter the denominator: ";
-			cin >> den;
+			cout << "Enter the numerator and denominator: ";
+			cin >> num >> den;
 		}
 		
 //		void print(){
@@ -55,3 +53,12 @@ int main(){
 
 	return 0;
 }
+
+// OUTPUT:
+// For fraction 1 
+// Enter the numerator and denominator: 1 5
+// For fraction 2 
+// Enter the numerator and denominator: 2 7
+// Sum is: Result of addition = 17/35
+// Result of substraction = -3/35
+// Result of multiplication = 2/35

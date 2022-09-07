@@ -7,12 +7,8 @@ class Time{
 	public:
 	
 		void input(){
-			cout << "Enter hour: ";
-			cin >> hour;
-			cout << "Enter minute: ";
-			cin >> min;
-			cout << "Enter second: ";
-			cin >> sec;
+			cout << "Enter hour, minute, second : ";
+			cin >> hour >> min >> sec;
 		}
 		
 		void print(){
@@ -40,9 +36,8 @@ class Time{
 
 int main(){
 	Time c1, c2, c3;
-	cout << "Enter first time: \n";
+	cout << "Enter first and second time: \n";
 	c1.input();
-	cout << "Enter second time: \n";
 	c2.input();
 	
 	cout << "Sum is: ";
@@ -52,3 +47,10 @@ int main(){
 
 	return 0;
 }
+
+
+// OUTPUT:
+// Enter first and second time: 
+// Enter hour, minute, second : 1 2 5
+// Enter hour, minute, second : 7 9 8
+// Sum is: 8:11:13

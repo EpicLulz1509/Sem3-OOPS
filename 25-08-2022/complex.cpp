@@ -5,12 +5,10 @@ using namespace std;
 class complex{
 	int real, im;
 	public:
-	
+		
 		void input(){
-			cout << "Enter real part: ";
-			cin >> real;
-			cout << "Enter imaginary part: ";
-			cin >> im;
+			cout << "Enter real and imaginary part: ";
+			cin >> real >> im;
 		}
 		
 		void print(){
@@ -29,9 +27,8 @@ class complex{
 
 int main(){
 	complex c1, c2, c3;
-	cout << "Enter first complex number: \n";
+	cout << "Enter first and second complex number: \n";
 	c1.input();
-	cout << "Enter second complex number: \n";
 	c2.input();
 	
 	cout << "Sum is: ";
@@ -41,3 +38,10 @@ int main(){
 
 	return 0;
 }
+
+
+// OUTPUT:
+// Enter first and second complex number: 
+// Enter real and imaginary part: 3 4     
+// Enter real and imaginary part: 1 5
+// Sum is: 4+9i

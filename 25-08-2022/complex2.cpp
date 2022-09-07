@@ -7,10 +7,8 @@ class COMPLEX{
 	public:
 	
 		void input(){
-			cout << "Enter real part: ";
-			cin >> real;
-			cout << "Enter imaginary part: ";
-			cin >> im;
+			cout << "Enter real and imaginary part: ";
+			cin >> real >> im;
 		}
 		
 		void print(){
@@ -35,9 +33,8 @@ class COMPLEX{
 int main(){
 	int num;
 	COMPLEX c1, c2, c3, c4;
-	cout << "Enter first COMPLEX number: \n";
+	cout << "Enter first and second complex number: \n";
 	c1.input();
-	cout << "Enter second COMPLEX number: \n";
 	c2.input();
 	cout << "Enter number: ";
 	cin >> num;
@@ -54,3 +51,11 @@ int main(){
 
 	return 0;
 }
+
+// OUTPUT:
+// Enter first and second complex number: 
+// Enter real and imaginary part: 1 2     
+// Enter real and imaginary part: 3 5
+// Enter number: 9
+// Sum is: 4+7i
+// Sum is: 10+2i
